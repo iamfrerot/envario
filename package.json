@@ -1,11 +1,14 @@
 {
   "name": "envario",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Validate and load .env files with type-safe checks.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc"
+  },
+  "bin": {
+    "envario": "./dist/cli.js"
   },
   "keywords": [
     ".env",
@@ -19,6 +22,9 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^22.10.6",
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "dotenv": "^16.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }

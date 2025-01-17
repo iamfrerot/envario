@@ -1,6 +1,6 @@
 {
   "name": "envario",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Validate and load .env files with type-safe checks.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -23,6 +23,10 @@
     "javascript",
     "npm"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:iamfrerot/envario.git"
+  },
   "author": "frerot",
   "license": "MIT",
   "dependencies": {

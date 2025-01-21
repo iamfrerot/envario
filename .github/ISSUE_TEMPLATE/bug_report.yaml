@@ -1,0 +1,61 @@
+name: Bug report
+description: Create a report to help us improve
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome
+        ```
+        Thanks for taking the time to fill out this bug!
+        ```
+
+
+  - type: markdown
+    attributes:
+      value: |
+        # Basic debugging
+        ```
+        Below fields are very important to quickly track down the issue, so please take the time to carefully check when the issue happens and when it does not.
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        # Issue details
+        ```
+        Please provide a detailed decription of what's happening, and most importantly - solid steps to reproduce the issue. This will help us find it quicker.
+        ```
+
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false

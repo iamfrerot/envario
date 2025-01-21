@@ -162,20 +162,33 @@ envario --schema ./schema.json
 
 ### 2. Use a Custom `.env` file
 
-if you want to validate `.env` file located elsewhere: ``bash envario --env
-./config/.env --schema ./config/schema.json
+if you want to validate `.env` file located elsewhere: 
+```bash
+envario --env ./config/.env --schema ./config/schema.json
+```
 
 ### 3. Use tolerant mode
 
 if you want to gather all validation errors instead of failing on the first
-error: ``bash envario --env ./config/.env --schema ./config/schema.json --mode
-tolerant
+error: 
+```bash 
+envario --env ./config/.env --schema ./config/schema.json --mode tolerant
+```
+
+Please update the contributing section in your README.md file to the following:
 
 ## Contributing
 
-I welcome contribution to envario! to contribute:
+Thank you for considering contributing to Envario! We welcome contributions from the community and are excited to work with you.
 
-1. Fork this repository
-2. Create a new branch
-3. Open a pull request.
-4. Yeah!! that's it 😂
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+
+### Contact
+
+If you have any questions or need further assistance, feel free to open an issue or contact the maintainers.
+
+Thank you for your contributions!
